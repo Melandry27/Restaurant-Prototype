@@ -1,0 +1,154 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman,
+		serif;
+}
+
+body {
+	animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+#header {
+	text-align: center;
+	font-size: 36px;
+	background-color: #096a09;
+	padding-bottom: 15px;
+}
+
+li a:hover {
+	padding: 15px;
+	border: solid 2px black;
+}
+
+nav {
+	background-color: #096a09;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li {
+	background-color: #096a09;
+	list-style-type: none;
+	width: 33%;
+	text-align: center;
+	height: 45px;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+#main-content {
+	min-height: 742px;
+	height: auto;
+	width: 100%;
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	animation: transitionIn 0.75s;
+}
+
+#about h2 {
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+	font-size: 36px;
+}
+
+#textContainer {
+	display: flex;
+	justify-content: center;
+}
+
+#textContainer p {
+	margin: 40px 640px 0px 640px;
+	display: flex;
+	text-align: justify;
+	font-size: 24px;
+	padding-bottom: 40px;
+}
+
+.food {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
+}
+
+.food img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 15vh;
+	border: solid black 2px;
+}
+
+.food .description {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#contact-container * {
+	text-align: center;
+}
+
+#contact-title {
+	padding-top: 40px;
+	font-size: 36px;
+}
+
+#mailPreText,
+#numberPreText {
+	font-size: 24px;
+	padding-top: 25px;
+}
+
+#mailText:hover {
+	font-size: 28px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #096a09;
+	display: flex;
+	justify-content: center;
+}
+
+footer p {
+	margin-top: 15px;
+	font-size: 24px;
+	align-content: center;
+}
