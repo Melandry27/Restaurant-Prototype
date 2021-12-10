@@ -90,7 +90,7 @@ a:visited {
 }
 
 #textContainer p {
-	margin: 40px 640px 0px 640px;
+	margin: 40px 480px 0px 480px;
 	display: flex;
 	text-align: justify;
 	font-size: 24px;
@@ -110,14 +110,17 @@ a:visited {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	border-radius: 15vh;
-	border: solid black 2px;
+	border: solid #096a09 1px;
 }
 
 .food .description {
 	padding-top: 10px;
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.food .description h3 {
+	font-size: 24px;
 }
 
 #contact-container * {

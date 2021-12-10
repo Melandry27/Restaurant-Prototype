@@ -41,36 +41,36 @@ function loadMenu() {
 
 	const foods = [
 		createFood(
-			"https://media.gettyimages.com/photos/directly-above-shot-of-pizza-picture-id1183163714?k=20&m=1183163714&s=612x612&w=0&h=QDSJMt2nJwAvme_sccLNfSOs6JP2GTOgiOR2lnoLFqw=",
-			"Pizza Margarita",
+			"https://medias.delarte.fr/media/sys_master/images/hbe/h1f/8855982800926.png",
+			"SPECIALE PIZZAIOLO",
 			"10$",
 			"Pizza Margarita",
 			"400px",
-			"500px"
+			"500px",
 		),
 		createFood(
-			"https://media-cdn.tripadvisor.com/media/photo-s/17/31/41/ff/bresaola.jpg",
-			"Pizza Margarita",
+			"https://medias.delarte.fr/media/sys_master/images/hf1/h6d/8855990272030.png",
+			"REGINA",
 			"9$",
 			"Pizza Margarita",
 			"400px",
-			"500px"
+			"500px",
 		),
 		createFood(
-			"https://media-cdn.tripadvisor.com/media/photo-s/0d/bf/9f/67/dsc-1160-largejpg.jpg",
-			"Pizza Margarita",
+			"https://medias.delarte.fr/media/sys_master/images/hdb/he8/8855994204190.png",
+			"5 FORMAGGI",
 			"8$",
 			"Pizza Margarita",
 			"400px",
-			"500px"
+			"500px",
 		),
 		createFood(
-			"https://img2.freepng.fr/20180206/rbw/kisspng-new-york-style-pizza-submarine-sandwich-french-fri-pizza-slice-png-file-5a795dc0c18fd0.6621830415179032967928.jpg",
-			"Pizza Margarita",
+			"https://medias.delarte.fr/media/sys_master/images/h5e/hcf/8856958468126.png",
+			"CARBONARA",
 			"7$",
 			"Pizza Margarita",
 			"400px",
-			"500px"
+			"500px",
 		),
 	];
 
